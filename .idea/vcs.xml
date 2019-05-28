@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/Doctor Finder/02 May/doctor-finder-android-user" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Old/doctor-finder-android-user" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/practice" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/practice/Android-Marker-Animation" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/practice/Google-Maps-2018" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/practice/Hello" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/practice/Hello/hello-world" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/practice/SignupLogin" vcs="Git" />
+  </component>
+</project>

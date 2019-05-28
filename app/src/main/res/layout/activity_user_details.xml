@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:paddingLeft="5dp"
+    android:orientation="vertical"
+    android:gravity="start"
+    android:layout_height="match_parent"
+    tools:context=".UserDetailsActivity">
+
+    <TextView
+        android:id="@+id/backBTN"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingRight="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="20sp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:drawableLeft="@drawable/ic_arrow_back_black_24dp"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:boxBackgroundMode="outline">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/nameET"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Name"
+                    android:inputType="text"
+                    android:textSize="18sp"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <!--<EditText
+                android:id="@+id/etLoginPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circle_border"
+                android:hint="Name"
+                android:textAllCaps="false"
+                android:imeOptions="actionNext"
+                android:textSize="20sp"
+                android:padding="10dp"
+                />-->
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:boxBackgroundMode="outline">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/emailET"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:textSize="18sp"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+
+
+            <TextView
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="About Me"
+                android:gravity="center"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:counterEnabled="true"
+                app:counterMaxLength="200"
+                app:boxBackgroundMode="outline">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/aboutmeET"
+                    android:layout_width="match_parent"
+                    android:gravity="start"
+                    android:layout_height="150dp"
+                    android:hint="Write something about you."
+                    android:inputType="textEmailAddress"
+                    android:textSize="18sp"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="60dp"
+                android:textAllCaps="false"
+                android:layout_marginLeft="60dp"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textColor="@color/colorWhite"
+                android:background="@drawable/circle_border2"
+                android:text="Save"/>
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>
