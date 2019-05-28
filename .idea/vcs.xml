@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Doctor Finder/02 May/doctor-finder-android-user" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Old/doctor-finder-android-user" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/practice" vcs="Git" />

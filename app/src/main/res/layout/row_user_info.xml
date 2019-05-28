@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="2dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:elevation="60dp"
+    android:id="@+id/doctorDetailsCardViewId"
+    android:foreground="?android:attr/selectableItemBackground"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:id="@+id/rvDoctorList">
+
+        <TextView
+            android:id="@+id/tvRvDoctorName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:textAppearance="?android:textAppearanceListItem"
+            />
+
+        <TextView
+            android:id="@+id/tvRvDoctorSpeciality"
+            android:layout_below="@id/tvRvDoctorName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email address"
+            android:lineSpacingMultiplier="2"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
+            android:textStyle="italic"/>
+
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

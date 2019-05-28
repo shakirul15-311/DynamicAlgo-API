@@ -17,8 +17,7 @@
 
 
         <activity
-            android:name=".UserDetailsActivity"
-             >
+            android:name=".UserDetailsActivity" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
 
         </activity>
 

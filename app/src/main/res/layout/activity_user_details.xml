@@ -4,17 +4,29 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:paddingLeft="5dp"
     android:orientation="vertical"
     android:gravity="start"
     android:layout_height="match_parent"
     tools:context=".UserDetailsActivity">
+  <!--  <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@color/colorBlack"
+        android:textColor="@color/colorWhite"
+        android:text="Add User"/>-->
 
     <TextView
         android:id="@+id/backBTN"
         android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:paddingRight="20dp"
+        android:gravity="center"
+        android:text="Add User"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
         android:layout_marginTop="10dp"
         android:paddingLeft="10dp"
         android:textSize="20sp"
